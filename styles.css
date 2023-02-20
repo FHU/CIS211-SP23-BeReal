@@ -1,0 +1,38 @@
+* {
+    
+}
+
+h1 {
+    color: #070707;
+}
+
+h2 {
+    color: #121212;
+}
+
+#logo {
+    text-decoration: none;
+}
+
+.left {
+    background-color: #fff; 
+}
+
+.left p {
+    line-height: 1.2em;
+}
+
+.right {
+    background-color: #121212;
+    text-align: center;
+}
+
+.white {
+    color: #fafafa;
+}
+
+.grey {
+    color: #9e9e9e;
+}
+
+
