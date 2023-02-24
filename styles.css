@@ -16,6 +16,15 @@ p {
     font-family: Nunito, Helvetica, sans-serif
 }
 
+a {
+    color: #212121;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1675de;
+}
+
 #logo {
     text-decoration: none;
 }
