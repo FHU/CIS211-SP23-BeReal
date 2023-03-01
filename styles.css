@@ -1,7 +1,10 @@
 * {
     font-family: Mynerve, sans-serif; 
-    /* padding:0;
-    margin:0;   */
+    padding:0;
+    margin:0;  
+    box-sizing: border-box;
+
+    /* outline: 1px solid salmon; */
 }
 
 h1 {
@@ -52,14 +55,38 @@ a:hover {
 
 footer {
     background-color: #FAFAFA;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-top: 2px solid #e0e0e0;
 }
 
 footer ul {
     list-style: none;
+    display: flex;
 }
 
 footer ul li {
-    display: inline-block;
+    /* display: inline-block; */
+    margin: 0 0.5rem;
+    display: flex;
+ 
 
+}
+
+footer ul li a {
+    padding: 0.5rem 1rem;
+}
+
+footer .social-links {
+    display: flex;
+    align-items: center;
+}
+
+footer .social-links img {
+    width: 24px;
+    margin: 0 10px ;
 }
 
